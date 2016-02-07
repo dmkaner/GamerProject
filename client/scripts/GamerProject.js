@@ -1,23 +1,20 @@
-if (Meteor.isClient) {
-  // counter starts at 0
-  Session.setDefault('counter', 0);
+Games = new Meteor.collection('games');
 
-  Template.hello.helpers({
-    counter: function () {
-      return Session.get('counter');
-    }
-  });
+GameSchema = new SimpleSchema({
+  title: {
+    type: String,
+    label: "Title"
+  },
+  console: {
+    type: String,
+    label: "Console"
+  },
+  category: {
+    type: String,
+    label: "Category"
+  }
+  //Group Count
 
-  Template.hello.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set('counter', Session.get('counter') + 1);
-    }
-  });
-}
+});
 
-if (Meteor.isServer) {
-  Meteor.startup(function () {
-    // code to run on server at startup
-  });
-}
+Games.attachSchema( GameSchema );
