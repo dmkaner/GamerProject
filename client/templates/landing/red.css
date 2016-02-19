@@ -1,18 +1,18 @@
-.navbar-nav li.active a, 
-a:focus, 
-a:hover, 
-.btn-primary:hover, 
-.navbar-nav li a.btn-primary:hover, 
-.compatibility a:hover, 
-.price .btn-primary:hover, 
-.price.featured .btn-primary:hover, 
-.twitter-feed a, 
+.navbar-nav li.active a,
+a:focus,
+a:hover,
+.btn-primary:hover,
+.navbar-nav li a.btn-primary:hover,
+.compatibility a:hover,
+.price .btn-primary:hover,
+.price.featured .btn-primary:hover,
+.twitter-feed a,
 #main-contact-form .btn-primary:hover {
     color: #f7941d;
 }
 
 
-.btn-primary, 
+.btn-primary,
 .owl-theme .owl-controls .owl-page span{
 	background-color:#f7941d;
 }
@@ -21,12 +21,12 @@ a:hover,
 	border:1px solid #f7941d;
 }
 
-.btn-primary.btn-animated:hover, 
-.btn-primary.btn-animated:focus, 
-.price .btn-primary:hover, 
-.price.featured .btn-primary:hover, 
-#main-contact-form .btn-primary,  
-#main-contact-form .btn-primary:hover, 
+.btn-primary.btn-animated:hover,
+.btn-primary.btn-animated:focus,
+.price .btn-primary:hover,
+.price.featured .btn-primary:hover,
+#main-contact-form .btn-primary,
+#main-contact-form .btn-primary:hover,
 .price .btn-primary {
 	border:3px solid #f7941d;
 }
@@ -43,4 +43,3 @@ a:hover,
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed1c24', endColorstr='#f7941d',GradientType=1 );
 
 }
-

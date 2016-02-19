@@ -5,13 +5,13 @@ body{
 	background-color: #43575d;
 }
 
-.whatsit h1, 
-.whatsit h2, 
-.section-title h1, 
-.feature h2, 
-#testimonial-slider .item h2, 
-.twitter-feed h1, 
-#main-contact-form .btn-primary, 
+.whatsit h1,
+.whatsit h2,
+.section-title h1,
+.feature h2,
+#testimonial-slider .item h2,
+.twitter-feed h1,
+#main-contact-form .btn-primary,
 .compatibility a {
 	color:#fff;
 }
@@ -44,7 +44,7 @@ body{
 	color:#a0d48c;
 }
 
-.owl-theme .owl-controls .owl-page.active span, 
+.owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
     background-color: #fff;
 }
