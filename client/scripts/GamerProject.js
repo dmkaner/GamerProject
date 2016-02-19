@@ -1,7 +1,7 @@
 Games = new Mongo.Collection('games');
 
-Template.popularGames.helpers({
-  game: function(){
-    return Games.find({});
-  }
+Template.body.helpers({
+    eachGame: function(){
+      return Games.find();
+    }
 });
