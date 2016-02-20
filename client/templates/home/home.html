@@ -29,9 +29,6 @@
   	            <a href="#">Create Lobby</a>
   	         </li>
   	         <li>
-  	            <a href="#">Game Categories</a>
-  	         </li>
-  	         <li>
   	            <a href="#">Help</a>
   	         </li>
   	      </ul>
@@ -54,9 +51,9 @@
   		</div>
   	</section>
 
-
+    {{#each eachGame}}
       {{> popularGames}}
-
+    {{/each}}
 
     <script>
       $(function () {

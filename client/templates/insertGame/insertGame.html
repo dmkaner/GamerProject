@@ -1,0 +1,8 @@
+<template name="insertGame">
+  <h1 class="insertGameHeader">Insert Games to MongoDB here!</h1>
+  {{> loginButtons}}
+
+  <div class="newGameContainer">
+    {{> quickForm collection="GameList" id="insertGameForm" type="insert" class="newGameForm"}}
+  </div>
+</template>
