@@ -2,6 +2,10 @@ body {
   background: url('/diagmonds.png');
   background-attachment: fixed;
 }
+.insertGameHeader{
+  color: white;
+  text-align: center;
+}
 .text-header {
 	width: 90%;
 	height: 120px;
