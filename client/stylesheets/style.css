@@ -1,6 +1,12 @@
-body {
+body{
   background: url('/diagmonds.png');
-  background-attachment: fixed;
+}
+.overlay-bg{
+  background: url('/diagmondsDark.png');
+}
+.headerH1{
+  color: white;
+  text-align: center;
 }
 .insertGameHeader{
   color: white;
