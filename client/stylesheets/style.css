@@ -1,7 +1,5 @@
 body{
-  background: url('/diagmonds.png');
-}
-.overlay-bg{
+
   background: url('/diagmondsDark.png');
 }
 .headerH1{
