@@ -1,5 +1,7 @@
 GameList = new Mongo.Collection('gamelist');
 
+Meteor.subscribe('gamelist');
+
 platformListSchema = new SimpleSchema({
   platform: {
     type: String,
